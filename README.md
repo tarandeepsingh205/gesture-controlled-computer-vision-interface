@@ -1,5 +1,3 @@
-# gesture-controlled-computer-vision-interface
-Real-time gesture-controlled human-computer interface using MediaPipe and OpenCV for touchless interaction.
 # Gesture Controlled Computer Interface
 
 A real-time gesture-based human-computer interaction system using computer vision for touchless control.
