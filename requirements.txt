@@ -15,7 +15,7 @@ mkdir gesture-project
 cd gesture-project
  STEP 3: Clone your GitHub repo
 
-git clone https://github.com/tarandeepsingh205/gesture-controlled-computer-vision-interface.git
+ git clone https://github.com/tarandeepsingh205/gesture-controlled-computer-vision-interface.git
 cd gesture-controlled-computer-vision-interface
 If git not installed:
 👉 install Git first
