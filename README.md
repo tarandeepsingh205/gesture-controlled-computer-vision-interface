@@ -18,6 +18,13 @@ A real-time gesture-based human-computer interaction system using computer visio
 Camera → MediaPipe → Hand Landmarks → Gesture Recognition → System Control
 
 ---
+<img width="636" height="412" alt="image" src="https://github.com/user-attachments/assets/ce3a064b-5911-47fe-8386-333836921248" />
+
+
+https://github.com/user-attachments/assets/4b9fee31-4c22-43f5-b59f-b203e3e0bd36
+
+
+
 
 ## Setup
 
