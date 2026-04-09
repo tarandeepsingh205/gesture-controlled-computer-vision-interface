@@ -1,0 +1,91 @@
+ STEP 1: Check Python installation
+Open PowerShell and run:
+python --version
+✔ Expected:
+Python 3.9 / 3.10 / 3.11
+❌ If error:
+Install Python from:
+👉 https://www.python.org/downloads/
+
+IMPORTANT during install:
+✔ Check “Add Python to PATH”
+
+ STEP 2: Create project folder
+mkdir gesture-project
+cd gesture-project
+ STEP 3: Clone your GitHub repo
+
+git clone https://github.com/tarandeepsingh205/gesture-controlled-computer-vision-interface.git
+cd gesture-controlled-computer-vision-interface
+If git not installed:
+👉 install Git first
+
+STEP 4: Create virtual environment (don’t skip)
+python -m venv venv
+
+Activate it:
+
+venv\Scripts\activate
+
+You should see:
+
+(venv) PS ...
+ STEP 5: Install dependencies
+If you created requirements.txt:
+pip install -r requirements.txt
+OR install manually:
+pip install opencv-python mediapipe pyautogui numpy
+STEP 6: Fix PyAutoGUI permission issue (IMPORTANT)
+
+Run once:
+
+pip install pygetwindow pymsgbox pyscreeze pyrect
+STEP 7: Allow camera access
+
+Go to:
+
+Settings → Privacy → Camera
+
+✔ Turn ON camera access
+✔ Allow desktop apps
+
+STEP 8: Run the code
+python main.py
+
+WHAT SHOULD HAPPEN
+
+You’ll see camera window with:
+
+Hand tracking
+Modes changing:
+MOUSE
+SCROLL
+COPY
+PASTE
+TAB
+...... COMMON ERRORS (AND FIXES)
+
+❌ Camera not opening
+ERROR: Could not open camera
+
+✔ Close other apps using camera
+✔ Change camera ID:
+
+CAMERA_ID = 1
+❌ Mediapipe install error
+pip install mediapipe --upgrade
+❌ Cursor not moving properly
+
+✔ Run PowerShell as Administrator
+
+❌ PyAutoGUI not working
+
+✔ Disable antivirus temporarily
+✔ Ensure:
+
+pyautogui.FAILSAFE = False
+❌ Slow performance / lag
+
+Change in code:
+
+CAP_W, CAP_H = 640, 480
