@@ -1,7 +1,7 @@
  STEP 1: Check Python installation
 Open PowerShell and run:
 python --version
-✔ Expected:
+Expected:
 Python 3.9 / 3.10 / 3.11
 ❌ If error:
 Install Python from:
